@@ -1,5 +1,5 @@
 # Sampling strategies and integrated reconstruction for reducing distortion and boundary slice aliasing in high-resolution 3D diffusion MRI
-MATLAB implementation of distortion-free reconstruction for 3D diffusion MRI
+MATLAB implementation of distortion-free parallel imaging reconstruction for 3D multi-slab diffusion MRI
 
 
 
@@ -35,7 +35,7 @@ It is worth noting that unlike the original SPIRiT formulation in which data con
 
 - The reconstruction is implemented in MATLAB in this resporitory. Please download the code and run *stage1_reconstruction.m* and *stage2_reconstruction.m* to get the result for each stage of reconstruction.
 
-- To run the code, please also download the data for demonstration, which is a single-slab 3D diffusion MRI at 1.22mm isotropic resolution acquired with the proposed sampling.
+- To run the code, please also download the data from https://git.fmrib.ox.ac.uk/fmz664/distortion-free-3d-dmri/-/tree/main/data, which is a single-slab 3D diffusion MRI at 1.22mm isotropic resolution acquired with the proposed sampling.
 
 
 
